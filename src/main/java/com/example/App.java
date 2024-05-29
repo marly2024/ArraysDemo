@@ -18,5 +18,15 @@ public class App
     	String[] nombres = {
     	          "Tamara","Jessica","Carlos","Adrian","Maria Lopez","Maria Jose",
     	          "Rosa"};
+    	// Para mostrar por consola los elementos del array de nombres
+    	// VARIANTE # 1.Utilizando una funcion println, mostrar cada elemento del array
+    	System.out.println(nombres[0]);
+    	System.out.println(nombres[1]);
+    	
+    	// y, como podran apreciar, la variante # 1 NO SIRVE DE NADA.
+    	
+    	//VARIANTE # 2.Implica utilizar una sentencia de control de flujo. para recorrer
+    	// el array 
+    	// lo veremos en la rama "sentenciasDeControlDeFlujo"
     }
 }
