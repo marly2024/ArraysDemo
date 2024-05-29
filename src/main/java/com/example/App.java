@@ -10,12 +10,12 @@ public class App
     {
        // Como se declara un array?
     	
-    	int numeros;// Declaramos que numeros es un array de valores enteros
+    	int[] numeros;// Declaramos que numeros es un array de valores enteros
     	
     	// Como añadir valores al array de numeros?
     	// Primeramente hay que reservar memoria para los elementos del array
     	
-    	numeros new int[10];
+    	numeros = new int[10];
     	
     	numeros[0] = 1;
     	numeros[1] = 2;
