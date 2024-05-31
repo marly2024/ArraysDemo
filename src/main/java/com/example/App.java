@@ -8,6 +8,27 @@ public class App
 {
     public static void main( String[] args )
     {
+    	/*Manejo de los argumentos que recbe el metodo main, es decir, la APP cuando se ejecuta
+    	 * porque la APP cuando se ejecuta recibe como parametro un array un argumento de tipo
+    	 * ( String[] args ).
+    	 * Done se especifica los argumentos que recibe la APP en el IDE eclipse?
+    	 * RTA: En la configuracion de las opciones de ejecucion*/
+    	
+    	//Primero hay que comprobar si la APP esta recibiendo los
+    	// argumentos esperados
+    	if(args.length == 0) { 
+    		System.out.println("No se han recibido los argumentos esperados");	
+    	} else if (args.length != 3) { 
+    		System.out.println("No se han recibido tres argumentos");
+    
+    	}else { 
+    		//Mostrar o manejar los argumentos recibidos.
+    		System.out.println("Se han recibido los guientes argumentos");
+    		for(String argumento : args)
+    			System.out.println(argumento);
+    	}
+    	
+       // VARANTE 2
        // Como se declara un array?
     	
     	int[] numeros = {
